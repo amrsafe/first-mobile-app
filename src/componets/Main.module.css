@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+  }
+  .userList{
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    position: relative;
+  }
+  .userList ul {
+    list-style: none;
+
+  }
+  .delbtn{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    
+  }
